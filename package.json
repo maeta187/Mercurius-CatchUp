@@ -1,0 +1,21 @@
+{
+  "name": "mercurius-catchup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "graphql": "^16.8.1",
+    "mercurius": "^13.3.3",
+    "mercurius-codegen": "^5.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
